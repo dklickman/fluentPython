@@ -1,0 +1,5 @@
+(1) list built in function sort modifies the list object being operated on. It also follows python convention that an object that is modified will return a data type of none. Ex:
+l1 = [1,3,5,2]
+type(l1) = list
+type(l1.sort()) = none
+
